@@ -12,7 +12,7 @@ Look [here to get an idea how to use asynchronous mode](http://scrapeulous.com/g
 4. [About](#about)
 5. [Usage with Python](#usage)
 6. [Command line usage (read this!)](#cli-usage)
-7. [Contact](#contact)
+7. [Contact](#contact)sc
 
 
 <a name="install" \>
@@ -355,7 +355,7 @@ if __name__ == '__main__':
 Probably the best way to use GoogleScraper is to use it from the command line and fire a command such as
 the following:
 ```
-GoogleScraper --keyword-file /tmp/keywords --search-engine bing --num-pages-for-keyword 3 --scrapemethod selenium
+GoogleScraper --keyword-file /tmp/keywords --search-engine bing --num-pages-for-keyword 3 --scrape-method selenium
 ```
 
 Here *sel* marks the scraping mode as 'selenium'. This means GoogleScraper.py scrapes with real browsers. This is pretty powerful, since
